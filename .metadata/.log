@@ -969,3 +969,6 @@ java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
 !MESSAGE Hardware Transfer Error
 !SUBENTRY 1 com.crt.dsfdebug 4 0 2018-06-28 22:54:41.082
 !MESSAGE Debugging context: TPL1_v2 LinkServer Debug
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-06-29 12:48:22.372
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
