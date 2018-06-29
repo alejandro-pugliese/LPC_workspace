@@ -1,0 +1,6 @@
+22:01:18 **** Incremental Build of configuration Debug for project InfotronicDriverLibrary ****
+make -r all 
+make: *** No rule to make target `all'.  Stop.
+
+22:01:18 Build Finished (took 93ms)
+

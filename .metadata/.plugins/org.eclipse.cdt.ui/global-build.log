@@ -1,0 +1,160 @@
+22:01:23 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+make: Nothing to be done for `all'.
+22:10:04 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+make: Nothing to be done for `all'.
+22:44:27 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/src/Services/Scheduler" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'MaqEstSensores':
+../src/main.c:78:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/main.c: In function 'main':
+../src/main.c:85:2: warning: implicit declaration of function 'SystemInit' [-Wimplicit-function-declaration]
+  SystemInit();
+  ^~~~~~~~~~
+../src/main.c:90:5: warning: implicit declaration of function 'Heartbeat_Init'; did you mean 'Keyboard_Init'? [-Wimplicit-function-declaration]
+     Heartbeat_Init();
+     ^~~~~~~~~~~~~~
+     Keyboard_Init
+../src/main.c:82:14: warning: unused variable 'Last_State' [-Wunused-variable]
+  static bool Last_State[3];
+              ^~~~~~~~~~
+../src/main.c:80:15: warning: unused variable 'Rpm' [-Wunused-variable]
+  unsigned int Rpm;
+               ^~~
+../src/main.c: In function 'MaqEstSensores':
+../src/main.c:122:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+../src/main.c:78:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/main.o] Error 1
+22:44:46 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/src/Services/Scheduler" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'MaqEstSensores':
+../src/main.c:78:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main(void) {
+     ^~~~
+../src/main.c: In function 'main':
+../src/main.c:85:2: warning: implicit declaration of function 'SystemInit' [-Wimplicit-function-declaration]
+  SystemInit();
+  ^~~~~~~~~~
+../src/main.c:90:5: warning: implicit declaration of function 'Heartbeat_Init'; did you mean 'Keyboard_Init'? [-Wimplicit-function-declaration]
+     Heartbeat_Init();
+     ^~~~~~~~~~~~~~
+     Keyboard_Init
+../src/main.c:80:15: warning: unused variable 'Rpm' [-Wunused-variable]
+  unsigned int Rpm;
+               ^~~
+../src/main.c: In function 'MaqEstSensores':
+../src/main.c:122:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+../src/main.c:78:5: warning: 'main' defined but not used [-Wunused-function]
+ int main(void) {
+     ^~~~
+make: *** [src/main.o] Error 1
+22:46:21 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/src/Services/Scheduler" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:86:2: warning: implicit declaration of function 'SystemInit' [-Wimplicit-function-declaration]
+  SystemInit();
+  ^~~~~~~~~~
+../src/main.c:91:5: warning: implicit declaration of function 'Heartbeat_Init'; did you mean 'Keyboard_Init'? [-Wimplicit-function-declaration]
+     Heartbeat_Init();
+     ^~~~~~~~~~~~~~
+     Keyboard_Init
+../src/main.c:81:15: warning: unused variable 'Rpm' [-Wunused-variable]
+  unsigned int Rpm;
+               ^~~
+Finished building: ../src/main.c
+ 
+Building target: TPL1_v2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/Debug" -L"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/Debug" -Xlinker -Map="TPL1_v2.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "test_2018_06_21_Debug.ld" -o "TPL1_v2.axf"  ./src/Services/Scheduler/Scheduler.o  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main.o   -lChipDriverLibrary -lInfotronicDriverLibrary
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        3156 B       512 KB      0.60%
+        RamLoc32:         164 B        32 KB      0.50%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: TPL1_v2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "TPL1_v2.axf"; # arm-none-eabi-objcopy -v -O binary "TPL1_v2.axf" "TPL1_v2.bin" ; # checksum -p LPC1769 -d "TPL1_v2.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3152	      4	    160	   3316	    cf4	TPL1_v2.axf
+ 
+22:46:26 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+make: Nothing to be done for `all'.
+22:46:33 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+make: Nothing to be done for `all'.
+22:51:35 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/src/Services/Scheduler" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:86:2: warning: implicit declaration of function 'SystemInit' [-Wimplicit-function-declaration]
+  SystemInit();
+  ^~~~~~~~~~
+../src/main.c:91:5: warning: implicit declaration of function 'Heartbeat_Init'; did you mean 'Keyboard_Init'? [-Wimplicit-function-declaration]
+     Heartbeat_Init();
+     ^~~~~~~~~~~~~~
+     Keyboard_Init
+../src/main.c:102:24: error: 'Heartbeat_Update' undeclared (first use in this function); did you mean 'Keyboard_Update'?
+     Scheduler_AddTask(&Heartbeat_Update, 1000);
+                        ^~~~~~~~~~~~~~~~
+                        Keyboard_Update
+../src/main.c:102:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:81:15: warning: unused variable 'Rpm' [-Wunused-variable]
+  unsigned int Rpm;
+               ^~~
+make: *** [src/main.o] Error 1
+22:52:25 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -DCORE_M3 -D__LPC17XX__ -D__REDLIB__ -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/TPL1_v2/src/Services/Scheduler" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/inc" -I"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:87:2: warning: implicit declaration of function 'SystemInit' [-Wimplicit-function-declaration]
+  SystemInit();
+  ^~~~~~~~~~
+../src/main.c:82:15: warning: unused variable 'Rpm' [-Wunused-variable]
+  unsigned int Rpm;
+               ^~~
+Finished building: ../src/main.c
+ 
+Building target: TPL1_v2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/ChipDriverLibrary/Debug" -L"/Users/alejandro/Documents/MCUXpressoIDE_10.2.0/workspace/InfotronicDriverLibrary/Debug" -Xlinker -Map="TPL1_v2.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "test_2018_06_21_Debug.ld" -o "TPL1_v2.axf"  ./src/Services/Scheduler/Scheduler.o  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/main.o   -lChipDriverLibrary -lInfotronicDriverLibrary
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        3496 B       512 KB      0.67%
+        RamLoc32:         180 B        32 KB      0.55%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: TPL1_v2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "TPL1_v2.axf"; # arm-none-eabi-objcopy -v -O binary "TPL1_v2.axf" "TPL1_v2.bin" ; # checksum -p LPC1769 -d "TPL1_v2.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3480	     16	    164	   3660	    e4c	TPL1_v2.axf
+ 
+22:52:29 **** Incremental Build of configuration Debug for project TPL1_v2 ****
+make -r -j3 all 
+make: Nothing to be done for `all'.

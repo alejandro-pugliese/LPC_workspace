@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TPL1_v2/src/define.h&apos; to &apos;defines.h&apos;" description="Rename resource &apos;define.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/define.h" name="defines.h" stamp="1530230050361" updateReferences="true"/>
+</session>

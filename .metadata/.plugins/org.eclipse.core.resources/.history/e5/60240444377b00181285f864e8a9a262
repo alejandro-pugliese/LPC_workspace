@@ -1,0 +1,14 @@
+/*
+ * define.h
+ *
+ *  Created on: 28 jun. 2018
+ *      Author: alejandro
+ */
+
+#ifndef DEFINE_H_
+#define BATTERY_SENSOR 0
+#define TEMP_SENSOR 0
+#define OIL_PRESSURE_SENSOR 0
+
+
+#endif /* DEFINE_H_ */
