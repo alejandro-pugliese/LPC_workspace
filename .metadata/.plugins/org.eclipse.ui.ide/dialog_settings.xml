@@ -39,6 +39,9 @@
 			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/Users/alejandro/Downloads/ADC_Pote_ConInterrupciones.zip"/>
+			<item value="/Users/alejandro/Downloads/Archive 2/TPL.zip"/>
+			<item value="/Users/alejandro/Downloads/UART0.zip"/>
 			<item value="/Users/alejandro/Downloads/Material20180621/ChipDriverLibrary.zip"/>
 			<item value="/Users/alejandro/Downloads/Material20180621/InfotronicDriverLibrary.zip"/>
 		</list>
